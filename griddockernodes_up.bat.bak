@@ -1,0 +1,1 @@
+docker compose -f docker_compose_file_name up -d

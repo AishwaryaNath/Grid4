@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T19:26:04 IST" name="Default suite" finished-at="2023-06-23T19:27:17 IST" duration-ms="72190">
+    <groups>
+    </groups>
+    <test started-at="2023-06-23T19:26:04 IST" name="Default test" finished-at="2023-06-23T19:27:17 IST" duration-ms="72190">
+      <class name="SeleniumGrid4.Grid4.BaseTest">
+        <test-method signature="setDriver()[pri:0, instance:SeleniumGrid4.Grid4.BaseTest@20ce78ec]" started-at="2023-06-23T19:26:04 IST" name="setDriver" finished-at="2023-06-23T19:27:16 IST" duration-ms="71936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumGrid4.Grid4.BaseTest@20ce78ec]" started-at="2023-06-23T19:27:16 IST" name="closeBrowser" finished-at="2023-06-23T19:27:17 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumGrid4.Grid4.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
