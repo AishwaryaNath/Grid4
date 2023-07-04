@@ -1,0 +1,22 @@
+kubectl delete --all deployments,services,pods
+minikube service selenium-hub-deployment --url
+minikube service selenium-hub --url
+
+
+
+kubectl apply -f kube.yml
+kubectl get pods -n selenium
+kubectl get deploy -n selenium
+
+selenium-hub-547f5d97dc-g5skm
+
+kubectl exec selenium-hub-547f5d97dc-g5skm — curl http://10.244.0.8:4444/wd/hub/status 
+
+
+----
+kubectl create -f hub.yml
+kubectl get pods #should be running
+kubectl create -f hub-svc.yml
+kubectl create -f chrome.yml
+kubectl get pods
+minikube service selenium-hub –-url

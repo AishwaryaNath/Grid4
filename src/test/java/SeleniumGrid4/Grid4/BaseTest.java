@@ -23,7 +23,7 @@ public class BaseTest {
  
     protected static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<RemoteWebDriver>();
    // public static String remote_url = "http://localhost:4445/";
-	public static String remote_url ="http://192.168.49.2:30002/";
+	public static String remote_url ="http://127.0.0.1:50178/";
     public Capabilities capabilities;
  
    // @Parameters({"browser"})
